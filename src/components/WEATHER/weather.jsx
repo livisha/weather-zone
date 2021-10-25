@@ -139,4 +139,4 @@ const Weather = () => {
 }
 
 //exported as Weather
-export default Weather;
+export default Weather;  
