@@ -1,4 +1,5 @@
 /* css file for implementing styling of login.js */
+
 .main-login{
     height: 90%;
     width: 80%;
@@ -46,4 +47,6 @@ img{
 .pass{
     display: flex
 }
+
+
 
