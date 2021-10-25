@@ -1,0 +1,9 @@
+/* css file for implementing styling of home.js */
+.heading{
+    font-size: 200%;
+    display: flex;
+}
+.navbar{
+    margin-top: 1.5%;
+}
+

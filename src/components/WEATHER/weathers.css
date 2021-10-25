@@ -1,0 +1,65 @@
+/* css file for implementing styling of weather.js and weatherCard.js */
+.weather-container{
+    font-family: "Barlow Condensed", sans-serif;
+    position: fixed;
+    margin: 1% 5% 1% 5%;
+    width: 90%;
+    height: 80%;
+    padding: 1% 2% 2% 2%;
+    color: white;
+    position: absolute;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+.temp-container{
+    font-size: 2%;
+}
+
+
+.review-card {
+    width: 10%;
+}
+
+.weather-row {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+  
+.weather-row > * {
+    grid-column: 2/ -2;
+}
+  
+.weather-row > .full {
+    grid-column: 1/-1;
+}
+  
+.weather-row .weather-grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(8, calc(50% - 30%));
+    grid-template-rows: minmax(150, 1fr);
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+  
+.weather-grid::-webkit-scrollbar {
+    display: none;
+}
+  
+.graph-container{
+    height: 50%;
+    width: 35%
+}
+.heading{
+    font-size: 200%;
+}
+.cel{
+    font-size: 50%;
+}
+.property{
+    font-size: 55%;
+}
+
+.weather-card__weather{
+    font-size: 10%;
+}
